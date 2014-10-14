@@ -98,6 +98,99 @@ poster le score à la bonne adresse (ne fonctionne pas avec tamper data)
 ```
 
 ##Level 4
+download b4.jpg
+```
+exiftool b4.jpg
+ExifTool Version Number         : 9.34
+File Name                       : b4.jpg
+Directory                       : .
+File Size                       : 90 kB
+File Modification Date/Time     : 2013:11:01 19:04:01+01:00
+File Access Date/Time           : 2014:10:14 18:27:20+02:00
+File Inode Change Date/Time     : 2014:10:14 18:27:20+02:00
+File Permissions                : rw-r--r--
+File Type                       : JPEG
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Orientation                     : Horizontal (normal)
+X Resolution                    : 96
+Y Resolution                    : 96
+Resolution Unit                 : inches
+Software                        : Microsoft Windows Photo Viewer 6.1.7600.16385
+Modify Date                     : 2010:04:28 13:28:38
+Artist                          : james
+Y Cb Cr Positioning             : Co-sited
+Exposure Time                   : 1/750
+F Number                        : 8.4
+Exposure Program                : Program AE
+ISO                             : 100
+Exif Version                    : 0220
+Date/Time Original              : 2010:04:28 19:28:59
+Create Date                     : 2010:04:28 19:28:59
+Components Configuration        : Y, Cb, Cr, -
+Compressed Bits Per Pixel       : 1.979816021
+Shutter Speed Value             : 1/792
+Aperture Value                  : 8.4
+Exposure Compensation           : 0
+Max Aperture Value              : 3.2
+Metering Mode                   : Multi-segment
+Light Source                    : Unknown
+Flash                           : Auto, Did not fire
+Focal Length                    : 6.3 mm
+Maker Note Version              : STMN100
+Preview Image Start             : 1063457536
+Preview Image Length            : 3778281728
+Warning                         : [minor] Bad format (1792) for MakerNotes entry 0
+User Comment                    : I like chocolate
+Flashpix Version                : 0100
+Color Space                     : sRGB
+Exif Image Width                : 1944
+Exif Image Height               : 2592
+Related Sound File              : RelatedSound
+Interoperability Index          : R98 - DCF basic file (sRGB)
+Interoperability Version        : 0100
+Exposure Index                  : 1
+Sensing Method                  : One-chip color area
+File Source                     : Digital Camera
+Scene Type                      : Directly photographed
+Exposure Mode                   : Auto
+White Balance                   : Auto
+Digital Zoom Ratio              : 0
+Focal Length In 35mm Format     : 35 mm
+Scene Capture Type              : Standard
+Contrast                        : Normal
+Saturation                      : Normal
+Sharpness                       : Normal
+Offset Schema                   : 4194
+Padding                         : (Binary data 2060 bytes, use -b option to extract)
+Compression                     : JPEG (old-style)
+Thumbnail Offset                : 23352
+Thumbnail Length                : 3392
+XMP Toolkit                     : XMP Core 4.1.1-Exiv2
+Creator Tool                    : Microsoft Windows Photo Viewer 6.1.7600.16385
+Instance ID                     : uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b
+Image Width                     : 364
+Image Height                    : 486
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:4:0 (1 2)
+Aperture                        : 8.4
+Image Size                      : 364x486
+Preview Image                   : (Binary data 3778281728 bytes, use -b option to extract)
+Scale Factor To 35 mm Equivalent: 5.6
+Shutter Speed                   : 1/750
+Thumbnail Image                 : (Binary data 3392 bytes, use -b option to extract)
+Circle Of Confusion             : 0.005 mm
+Field Of View                   : 54.4 deg
+Focal Length                    : 6.3 mm (35 mm equivalent: 35.0 mm)
+Hyperfocal Distance             : 0.87 m
+Light Value                     : 15.7
+```
+user : james
+pass : chocolate
+
 ##Level 5
 ##Level 6
 ##Level 7
