@@ -86,7 +86,17 @@ récupérer le fichier b1.txt
 il commence par la signature BM6 (fichier BMP). on le renomme et on l'affiche. On obtient le login et le mot de passe.
 
 ##Level 2
+utiliser useragent switcher ou tamper data pour changer le useragent du navigateur et mettre secure_user_agent
+
 ##Level 3
+poster le score à la bonne adresse (ne fonctionne pas avec tamper data)
+```html
+<form method="post" action="https://www.hackthis.co.uk/levels/b3.php?submit">
+        <input type="text" name="score" value="194175">
+        <input type="submit">
+</form> 
+```
+
 ##Level 4
 ##Level 5
 ##Level 6
