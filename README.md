@@ -269,3 +269,26 @@ le filtre supprime les balises.
 username : a from 127.0.0.1\n
 
 ##Level 6
+
+#Javascript
+##Level 1
+affichier la source
+le script de vérification du mot de passe utilise la variable correct définie à la fin de la page html
+```html
+<script type='text/javascript'> var correct = 'jrules' </script>
+```
+
+##Level 2
+afficher la source
+```html
+        <script type='text/javascript'> $(function(){ $('.level-form').submit(function(e){ e.preventDefault(); if ($('.level-form #pass')[0].value.length == length) { document.location = "2?x=" + length; } else { alert('Incorrect Password'); } }); }); </script>
+```
+le script vérifie la taille du mot de passe.
+avec un scratchpad :
+```javascript
+alert(length);
+```
+saisir une chaine de 9 caractères
+##Level 3
+##Level 4
+##Level 5
