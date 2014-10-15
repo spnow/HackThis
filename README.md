@@ -207,6 +207,44 @@ traceroute 178.17.41.47 => allsimple
 afficher la source du mail de confirmation : X-B6-Key: Lajklsb#!"3jlak
 
 ##Level 7
+faire un scan de port du serveur
+```nix
+cyril:~ # nmap -v -T 4 -p1-65535 www.hackthis.co.uk
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2014-10-15 13:14 CEST
+Initiating Ping Scan at 13:14
+Scanning www.hackthis.co.uk (178.17.41.47) [4 ports]
+Completed Ping Scan at 13:14, 0.07s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 13:14
+Completed Parallel DNS resolution of 1 host. at 13:14, 0.04s elapsed
+Initiating System CNAME DNS resolution of 1 host. at 13:14
+Completed System CNAME DNS resolution of 1 host. at 13:14, 0.00s elapsed
+Initiating SYN Stealth Scan at 13:14
+Scanning www.hackthis.co.uk (178.17.41.47) [65535 ports]
+Discovered open port 443/tcp on 178.17.41.47
+Discovered open port 8080/tcp on 178.17.41.47
+Discovered open port 80/tcp on 178.17.41.47
+SYN Stealth Scan Timing: About 4.36% done; ETC: 13:26 (0:11:20 remaining)
+SYN Stealth Scan Timing: About 8.83% done; ETC: 13:25 (0:10:30 remaining)
+SYN Stealth Scan Timing: About 13.66% done; ETC: 13:25 (0:09:54 remaining)
+SYN Stealth Scan Timing: About 18.49% done; ETC: 13:25 (0:09:07 remaining)
+SYN Stealth Scan Timing: About 23.84% done; ETC: 13:25 (0:08:31 remaining)
+SYN Stealth Scan Timing: About 28.68% done; ETC: 13:25 (0:07:52 remaining)
+SYN Stealth Scan Timing: About 33.79% done; ETC: 13:25 (0:07:17 remaining)
+Discovered open port 6776/tcp on 178.17.41.47
+SYN Stealth Scan Timing: About 39.87% done; ETC: 13:25 (0:06:40 remaining)
+SYN Stealth Scan Timing: About 45.16% done; ETC: 13:25 (0:06:06 remaining)
+SYN Stealth Scan Timing: About 50.32% done; ETC: 13:25 (0:05:27 remaining)
+SYN Stealth Scan Timing: About 57.10% done; ETC: 13:25 (0:04:51 remaining)
+^C
+cyril:~ # telnet www.hackthis.co.uk 6776
+Trying 178.17.41.47...
+Connected to www.hackthis.co.uk.
+Escape character is '^]'.
+Welcome weary traveller. I believe you are looking for this: mapthat
+Connection closed by foreign host.
+
+```
 
 #Intermediate
 ##Level 1
