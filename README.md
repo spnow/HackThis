@@ -202,4 +202,8 @@ pass: safe
 on peut aussi remarquer la présence de la signature d'un fichier ZIP (PK). En prenant les 141 derniers octets du fichier on a un zip contenant le fichier secret.txt avec les informations ci-dessus.
 
 ##Level 6
+nslookup www.hackthis.co.uk => 178.17.41.47
+traceroute 178.17.41.47 => allsimple
+afficher la source du mail de confirmation : X-B6-Key: Lajklsb#!"3jlak
+
 ##Level 7
