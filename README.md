@@ -291,12 +291,7 @@ alert(length);
 saisir une chaine de 9 caractères
 
 ##Level 3
-afficher la source
-```html
-<script type='text/javascript'> var thecode = 'code123'; $(function(){ $('.level-form').submit(function(e){ e.preventDefault(); if ($('.level-form #pass')[0].value == thecode) { document.location = "?pass=" + thecode; } else { alert('Incorrect Password'); } }); }); </script>
-```
 
-##Level 4
 afficher la source
 ```html
 <script type='text/javascript'> var thecode = 'code123'; $(function(){ $('.level-form').submit(function(e){ e.preventDefault(); if ($('.level-form #pass')[0].value == thecode) { document.location = "?pass=" + thecode; } else { alert('Incorrect Password'); } }); }); </script>
@@ -307,10 +302,20 @@ alert(thecode);
 ```
 ==> getinthere
 
-##Level 5
+##Level 4
 la page https://www.hackthis.co.uk/levels/javascript/4 redirige vers https://www.hackthis.co.uk/levels/javascript/4?input
 en récupérant le code de la première page avec la redirection, on a 
 ```html
 <script> document.location = '?input'; </script>
 <div class='center'>The password is: smellthecheese</div>
 ```
+##Level 5
+on recherche "prompt" dans les js avec les outils de dev firefox.
+```html
+timer=setTimeout(searchsuggest,200);});});a=window.location.host+"";b=a.length;c=4+((5*10)*2);d=String.fromCharCode(c,-(41-Math.floor(1806/13)),Math.sqrt(b-2)*29,(b*8)-29);p=prompt("Password:","");if(p==d){window.location="?pass="+p;}else{window.location="/levels/";}
+```
+dans le scratchpad :
+```javascript
+alert(d);
+```
+==> hats
