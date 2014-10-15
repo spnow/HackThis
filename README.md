@@ -308,3 +308,9 @@ alert(thecode);
 ==> getinthere
 
 ##Level 5
+la page https://www.hackthis.co.uk/levels/javascript/4 redirige vers https://www.hackthis.co.uk/levels/javascript/4?input
+en récupérant le code de la première page avec la redirection, on a 
+```html
+<script> document.location = '?input'; </script>
+<div class='center'>The password is: smellthecheese</div>
+```
