@@ -434,6 +434,16 @@ on obtient les hash des mots de passe :
 => westwoodworld
 
 on peut maintenant se connecter à l'email avec le login : jfelliot et le mot de passe chicken
+
+récupérer le mot de passe sur safe transfer user nemisis, email jfelliot@mail.com
+```
+ You have requested your details on Safe Transfer
+If you have not requested these details then someone is probably trying to illegally gain access to your account.
+Username: nemisis
+Password: i.am.awesome
+```
+se connecter sur safe transfer avec le user nemisis et le mot de passe du mail.
+
 ## Level 5
 ## Level XMAS
 ## Level 6
