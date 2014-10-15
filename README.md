@@ -192,5 +192,14 @@ user : james
 pass : chocolate
 
 ##Level 5
+Télécharger le fichier b5.jpg
+l'éditer avec un éditeur texte.
+à la fin, on remarque : 
+```
+user: admin
+pass: safe
+```
+on peut aussi remarquer la présence de la signature d'un fichier ZIP (PK). En prenant les 141 derniers octets du fichier on a un zip contenant le fichier secret.txt avec les informations ci-dessus.
+
 ##Level 6
 ##Level 7
