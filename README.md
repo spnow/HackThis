@@ -393,3 +393,26 @@ aller dans le répertoire members :
 ```
 on a la liste des users/password
 se connecter en tant que librarian
+
+##Level 3
+rechercher des informations sur le script utilisé :
+```javascript
+// Login version 4.2 june 2000 Copyright D10n...
+
+// Courtesy of SimplytheBest.net (http://simplythebest.net/scripts/DHTML_scripts/)
+```
+http://codingforums.com/javascript-programming/4939-hellp-savascript-login.html
+```
+ members.js - List of Members, Passwords and Destinations.
+```
+contenu : 
+```javascript
+m[m.length]=new Array("Admin","password","Home","/levels/real/3?pw=password");
+m[m.length]=new Array("John T","sheeprule","Home2","/levels/real/3?pw=newsheep");
+m[m.length]=new Array("Temp","password","Loloips","http://www.google.com");
+```
+se connecter en tant que "John T"
+## Level 4
+## Level 5
+## Level XMAS
+## Level 6
