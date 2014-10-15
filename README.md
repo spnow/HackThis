@@ -289,6 +289,22 @@ avec un scratchpad :
 alert(length);
 ```
 saisir une chaine de 9 caractères
+
 ##Level 3
+afficher la source
+```html
+<script type='text/javascript'> var thecode = 'code123'; $(function(){ $('.level-form').submit(function(e){ e.preventDefault(); if ($('.level-form #pass')[0].value == thecode) { document.location = "?pass=" + thecode; } else { alert('Incorrect Password'); } }); }); </script>
+```
+
 ##Level 4
+afficher la source
+```html
+<script type='text/javascript'> var thecode = 'code123'; $(function(){ $('.level-form').submit(function(e){ e.preventDefault(); if ($('.level-form #pass')[0].value == thecode) { document.location = "?pass=" + thecode; } else { alert('Incorrect Password'); } }); }); </script>
+```
+dans un scratchpad :
+```javascript
+alert(thecode);
+```
+==> getinthere
+
 ##Level 5
