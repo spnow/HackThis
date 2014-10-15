@@ -362,3 +362,34 @@ for(i=0; i<vals.length ; i++) {
 textareas[1].value = result;
 ```
 run, submit
+
+#Real
+##Level 1
+Read mail in trash
+```
+From: 'uStudio'
+Subject: Password Request
+You have requested your password. Your password is:
+iamgod
+
+We suggest you delete this email immediately!! 
+```
+
+##Level 2
+regarder la source
+```javascript
+var username= document.getElementById('username').value;
+var password= document.getElementById('password').value;
+URL= "members/" + username + " " + password + ".htm";
+```
+aller dans le répertoire members :
+```
+[TXT]	anna god.htm	01-Nov-2013 18:04 	0 	 
+[TXT]	dave fish_r_friends.htm	01-Nov-2013 18:04 	0 	 
+[TXT]	jack kack.htm	01-Nov-2013 18:04 	0 	 
+[TXT]	librarian sweetlittlebooks.htm	01-Nov-2013 18:04 	0 	 
+[TXT]	luke 9312.htm	01-Nov-2013 18:04 	0 	 
+[ ]	sam sam	01-Nov-2013 18:04 	0 	 
+```
+on a la liste des users/password
+se connecter en tant que librarian
