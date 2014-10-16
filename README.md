@@ -362,6 +362,11 @@ for(i=0; i<vals.length ; i++) {
 textareas[1].value = result;
 ```
 run, submit
+#Forensics
+utiliser photorec pour récupérer les fichiers
+mot de passe du rar : 123
+décodage des DTMF avec http://www.dialabc.com/sound/detect/index.html ==> AA6B A4A8 3C67 DDC7
+en utilisant le même format que dans un des fichiers txt, le code est AA6B-A4A8-3C67-DDC7
 
 #Real
 ##Level 1
