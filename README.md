@@ -474,3 +474,11 @@ login = mot de passe = ' or '1'='1
 on edite index.php et on met le code de la page alternative. submit
 
 ## Level 6
+XSS sur le formulaire de contact :
+en envoyant :
+```
+*/</script>
+*/alert('lol');/*
+<script>/*
+```
+le code s'exécute sur la page avec le formulaire
