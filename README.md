@@ -4,30 +4,30 @@ https://www.hackthis.co.uk
 
 #Main
 ##Level 1
-regarder le source de la page. dans la partie head, remarquer :
+regarder la source de la page. dans la partie head, remarquer :
 ```html
 <!-- username: in, password: out -->
 ```
 
 ##Level 2
-regarder le source de la page. le formulaire contient les information dans des balises span de la couleur du fond d'écran
+regarder la source de la page. le formulaire contient les information dans des balises span de la couleur du fond d'écran
 ```html
 <label for="user">Username:</label> <span style="color: #000000">resu</span>
 <label for="user">Password:</label> <span style="color: #000000">ssap</span>
 ```
 ##Level 3
-regarder le source de la page. Elle contient une fonction javascript permettant de valider les informations du formulaire
+regarder la source de la page. Elle contient une fonction javascript permettant de valider les informations du formulaire
 ```javascript
 $(function(){ $('.level-form').submit(function(e){ if(document.getElementById('user').value == 'heaven' && document.getElementById('pass').value == 'hell') { } else { e.preventDefault(); alert('Incorrect login') } })})
 ```
 ##Level 4
-regarder le source de la page. le formulaire contient un champ caché :
+regarder la source de la page. le formulaire contient un champ caché :
 ```html
 <input type="hidden" name="passwordfile" value="extras/ssap.xml">
 ```
-regarder le contenu du fichier https://www.hackthis.co.uk/levels/extras/ssap.xml
+regarder la contenu du fichier https://www.hackthis.co.uk/levels/extras/ssap.xml
 ##Level 5
-regarder le source de la page. la saisie du mot de passe et sa vérification sont faite en javascript.
+regarder la source de la page. la saisie du mot de passe et sa vérification sont faite en javascript.
 ```javascript
             var pass;
             pass=prompt("Password","");
@@ -57,7 +57,7 @@ Sitemap: https://www.hackthis.co.uk/sitemap.xml
 ```
 regarder https://www.hackthis.co.uk/levels/extras/userpass.txt
 ##Level 8
-le source montre un champ caché dans le formulaire
+la source montre un champ caché dans le formulaire
 ```html
 <input type="hidden" name="passwordfile" value="extras/secret.txt">
 ```
@@ -452,5 +452,25 @@ se connecter sur safe transfer avec le user nemisis et le mot de passe du mail.
 effectuer un transfer de 1.32 vers le compte 64957746
 
 ## Level 5
+Sélectionner un des liens (home, news, contact). on remarque ?p=<nompage>
+si on enlève nompage :
+```
+Warning: file_get_contents(.html) [function.file-get-contents]: failed to open stream: No such file or directory in pages on line 22 
+```
+injection null byte :
+https://www.hackthis.co.uk/levels/extras/real/5/?p=admin.php%00
+==> No such file or directory
+directory traversal :
+https://www.hackthis.co.uk/levels/extras/real/5/?p=../admin.php%00
+==> on voit le formulaire. en affichant la source, on obtient le mot de passe = princesslovetoast
+
 ## Level XMAS
+lien "write to santa" => submit
+on enlève le paramètre ?submit
+on a un formulaire d'authentification : https://www.hackthis.co.uk/levels/extras/real/xmas/mod.php
+
+login = mot de passe = ' or '1'='1
+
+on edite index.php et on met le code de la page alternative. submit
+
 ## Level 6
