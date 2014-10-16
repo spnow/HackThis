@@ -362,6 +362,44 @@ for(i=0; i<vals.length ; i++) {
 textareas[1].value = result;
 ```
 run, submit
+#Crypt
+##Level 1
+renverser la chaine.
+```
+Hello, welcome to the crypt levels on hackthis. These levels are all about decryption and logic, you will need to employ a lot of brain power. To complete this level enter this pass: woocrypt
+```
+##Level 2
+CAESAR Shift Code (http://crypo.in.ua/tools/eng_caesar.php) avec un décalage de 4 caractères
+```
+Welcome back, this level is not as easy as the last but still not too challenging. So go ahead and enter this pass: shiftthatletter  
+```
+
+##Levek 3
+Morse (http://www.dcode.fr/code-morse)
+```
+HI, THANKS TO SAMUEL MORSE THE TRANSMISSION OF TELEGRAPHIC INFORMATION WAS STANDARDIZED. HE USED DOTS AND DASHES TO CREATE A STANDARD WAY OF COMMUNICATION, HE HAS HELPED YOU TODAY TO GET THE PASS: THANKYOUSIR
+```
+mettre en minuscules
+
+##Level 4
+substitution d'alphabet
+http://www.chaos.org.uk/~eddy/craft/substitute.html
+In	CQGLHDNSKMZJ.ARUWY,:O
+Out         IETSAHRLDNOP.FMWVC,:G
+```
+Hi, this is a similar idea to level two. This time each letter is assigned a specified relationship with another letter. Pass: ihavefriends 
+```
+
+#Level 5
+inverser la chaine
+substituer :
+In	YILODNPTCQMEZGHK.FSW,AJX:B
+Out         tieoamhysrnlugfc.pkw,dbv:j
+(Hacker Manifesto)
+```
+Yes i am a criminal. My crime is that of curiosity. My crime is that of judging people by what they say and think, not what they look like. My crime is that of outsmarting you, Something that you will never forgive me for. But the pass: TheMentor
+```
+
 #Forensics
 utiliser photorec pour récupérer les fichiers
 mot de passe du rar : 123
