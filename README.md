@@ -415,6 +415,12 @@ se connecter en tant que "John T"
 ## Level 4
 PlanetBid : se connecter en tant qu'admin, avec "asdfg" comme mot de passe (top 10 des mots de passe)
 
+remarquer le message :
+```
+ Your IP has been logged for security reasons. [view] 
+```
+cliquer sur view, puis clear logs
+
 consulter la base des membres :
 31	Revoked.Mayhem	Caffe@hotbiz.com
 
@@ -443,6 +449,7 @@ Username: nemisis
 Password: i.am.awesome
 ```
 se connecter sur safe transfer avec le user nemisis et le mot de passe du mail.
+effectuer un transfer de 1.32 vers le compte 64957746
 
 ## Level 5
 ## Level XMAS
