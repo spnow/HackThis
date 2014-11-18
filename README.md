@@ -400,6 +400,9 @@ Out         tieoamhysrnlugfc.pkw,dbv:j
 Yes i am a criminal. My crime is that of curiosity. My crime is that of judging people by what they say and think, not what they look like. My crime is that of outsmarting you, Something that you will never forgive me for. But the pass: TheMentor
 ```
 #Captcha
+
+solutions basées sur : http://articles.qiguang.net/2012/04/13/primitive-captcha-ocr-in-javascript/
+
 ##Level 1
 Cf. ocr.js
 
