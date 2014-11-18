@@ -403,6 +403,9 @@ Yes i am a criminal. My crime is that of curiosity. My crime is that of judging 
 ##Level 1
 Cf. ocr.js
 
+##Level 2
+Cf. ocr2.js
+
 #Forensics
 utiliser photorec pour récupérer les fichiers
 mot de passe du rar : 123
