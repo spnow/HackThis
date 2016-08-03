@@ -393,7 +393,7 @@ Out         IETSAHRLDNOP.FMWVC,:G
 Hi, this is a similar idea to level two. This time each letter is assigned a specified relationship with another letter. Pass: ihavefriends 
 ```
 
-#Level 5
+##Level 5
 inverser la chaine
 substituer :
 In	YILODNPTCQMEZGHK.FSW,AJX:B
@@ -402,6 +402,14 @@ Out         tieoamhysrnlugfc.pkw,dbv:j
 ```
 Yes i am a criminal. My crime is that of curiosity. My crime is that of judging people by what they say and think, not what they look like. My crime is that of outsmarting you, Something that you will never forgive me for. But the pass: TheMentor
 ```
+##Level 6
+ouvrir le fichier .wav dans wavepad sound editor
+faire une FFT temporelle (TFFT), on obtient une image. c'est de la numération maya (https://fr.wikipedia.org/wiki/Num%C3%A9ration_maya).
+on obtient la suite de chiffres suivante : 6 9 5 9 8 9 7 8 6 1 6 9 7 5
+on les regroupe par deux : 69 59 30 78 61 60 75
+on les décode avec une table ascii => iY0xa`u
+
+
 #Captcha
 
 solutions basées sur : http://articles.qiguang.net/2012/04/13/primitive-captcha-ocr-in-javascript/
